@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+</head>
+<body>
+  <div class= 'container'>
+    <div class="banner"><h1>Play drums</h1></div>
+    <div class="keys">
+      <div data-key="65" class="key keyA">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key keyS">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key keyD">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key keyF">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key keyG">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key keyH">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key keyJ">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key keyK">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key keyL">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+    <div class='credit'><a href="https://unsplash.com/photos/xmGkzY--Fgg"  taget='blank'><p>Photo by Patrick Tomasso on Unsplash</p></a></div>
+  </div>
+  <audio class="audiokeyA" src="sounds/clap.wav"></audio>
+  <audio class="audiokeyS" src="sounds/hihat.wav"></audio>
+  <audio class="audiokeyD" src="sounds/kick.wav"></audio>
+  <audio class="audiokeyF" src="sounds/openhat.wav"></audio>
+  <audio class="audiokeyG" src="sounds/boom.wav"></audio>
+  <audio class="audiokeyH" src="sounds/ride.wav"></audio>
+  <audio class="audiokeyJ" src="sounds/snare.wav"></audio>
+  <audio class="audiokeyK" src="sounds/tom.wav"></audio>
+  <audio class="audiokeyL" src="sounds/tink.wav"></audio>
+
+  <script src="js/drumsapp.js"></script>
+</body>
+</html>

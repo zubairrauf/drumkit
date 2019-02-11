@@ -1,0 +1,101 @@
+html {
+  font-size: 10px;
+  background: url(../img/bluewall.jpg) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+
+}
+.banner {
+  border: solid 5px white;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 50px;
+  font-family: 'Monoton', cursive;
+  font-weight: 700;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  /* width: 80%; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 40%;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: orange;
+  box-shadow: 0 0 1rem orange;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+/* Adding glow */
+.glow {
+  /* font-size: 80px; */
+
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} */
+/* @media screen and (min-width:650px){
+  .key {width: 20%;}
+}
+@media screen and (min-width:700px){
+  .key {width: 15%;}
+}
+@media screen and (min-width:800px){
+  .key {width: 7%;}
+}
